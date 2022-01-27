@@ -60,7 +60,8 @@ function draw() {
   let whichBar = mouseX / barWidth;
   if (whichBar !== lastBar) {
     let barX = whichBar * barWidth;
-    fill(mouseY, height, height);
+    noFill();
+    stroke(mouseY, height, height);
     rect(barX, 0, barWidth, height);
     lastBar = whichBar;
   }

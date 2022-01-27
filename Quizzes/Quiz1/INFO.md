@@ -2,7 +2,7 @@
 
 ## First Step
 
-[] Make three new folders for `Quiz2`, `Quiz3`, `Quiz4`
+[X] Make three new folders for `Quiz2`, `Quiz3`, `Quiz4`
 
 ---
 
@@ -10,9 +10,9 @@
 
 The content I received from `prof` was:
 
-1. First:
-2. Second:
-3. Third:
+1. First: noFill()
+2. Second: stroke()
+3. Third: elation
 
 ---
 >
@@ -24,7 +24,7 @@ The content I received from `prof` was:
 
 In your Quiz 1 folder do the following:
 
-1. [] Make a `STATEMENT.md` file
-2. [] Make a `README.md` file
+1. [X] Make a `STATEMENT.md` file
+2. [X] Make a `README.md` file
 
 ---

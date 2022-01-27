@@ -1,4 +1,4 @@
-# Sarah_Vollmer
+# Xin_Zhou
 
 example of submission format
 
@@ -13,6 +13,6 @@ example of submission format
    - [] this is an empty checkbox
    - [x] this is not
 
-    [] 100_Days INFO.md
-    [] Labs INFO.md
-    [] Quizzes INFO.md
+    [X] 100_Days INFO.md
+    [X] Labs INFO.md
+    [X] Quizzes INFO.md
