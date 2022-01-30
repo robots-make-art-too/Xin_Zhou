@@ -1,0 +1,1 @@
+Low-saturated colors gradually deepen,shows sadness emotion

@@ -10,9 +10,10 @@ let lastBar = -1;
 function setup() {
   // image
   createCanvas(720, 400);
-  colorMode(HSB, height, height, height);
+  background(200);
+  colorMode(HSB, height, height, height,1);
   noStroke();
-  background(0);
+
 
   // sound
   counter = 0;
@@ -60,8 +61,7 @@ function draw() {
   let whichBar = mouseX / barWidth;
   if (whichBar !== lastBar) {
     let barX = whichBar * barWidth;
-    noFill();
-    stroke(mouseY, height, height);
+    fill(mouseY, height, 150);
     rect(barX, 0, barWidth, height);
     lastBar = whichBar;
   }
