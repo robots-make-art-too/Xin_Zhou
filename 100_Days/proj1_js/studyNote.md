@@ -11,3 +11,6 @@ html lang="en": lang=lanuage & en=English  => show this is a html page and in En
 head: : the area to add <title>, <style>, <meta>, <link>, <script>, <noscript>, <base>
 
 button: hover  : the change when mouse hang on the area
+
+Questions:
+1.The icon can not show on the website of extensions page.
