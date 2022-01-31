@@ -2,8 +2,32 @@
     <html lang="en">
         <head>
             <title> Tamato Timer Popup </title>
-            <style>
-
+            <style> 
+                body{
+                    text-align: center;
+                    background-color: rgb(228, 199, 199)
+                }
+                
+                button{
+                    margin: 5% 0;
+                    background-color: rgba(220, 189, 50, 0.6);
+                    outline: 3px ridge rgba(41, 134, 53, 0.6);
+                    border-radius: 10% 30% 50% 70%;
+                }
+                button:hover {
+                    outline: dashed rgb(38, 77, 38);
+                }
             </style>
         </head>
+        <body>
+            <div id="settingTime">
+                <h3 id="greet">Work:25minus</h3>
+                <h3 id="greet">Rest: 5minus</h3>
+            </div>
+            <div id="buttons">
+                <button id='tryMe' value='0.1'> Try Me </button>
+                <button id='start' value='25'> Start</button>
+                <button id='cancel'> Cancel </button>
+            </div>
+        </body>
     </html>
