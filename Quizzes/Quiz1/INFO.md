@@ -10,9 +10,9 @@
 
 The content I received from `prof` was:
 
-1. First: colorMode()
+1. First:  ellipse()
 2. Second: fill()
-3. Third: sadness
+3. Third: disgust
 
 ---
 >

@@ -11,7 +11,7 @@ function setup() {
   // image
   createCanvas(720, 400);
   background(200);
-  colorMode(HSB, height, height, height,1);
+  colorMode(HSB, height, height, height);
   noStroke();
 
 
@@ -61,8 +61,10 @@ function draw() {
   let whichBar = mouseX / barWidth;
   if (whichBar !== lastBar) {
     let barX = whichBar * barWidth;
-    fill(mouseY, height, 150);
+    fill(mouseY, height, 250);
     rect(barX, 0, barWidth, height);
+    fill(0);
+    ellipse(mouseX, mouseY, 50, 50);
     lastBar = whichBar;
   }
 }
