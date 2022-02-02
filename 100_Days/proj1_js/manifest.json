@@ -3,7 +3,7 @@
     "description":"Pomodoro Technique can help increase producitivity by dividing time into 25-minute work periods and 5-minute breaks",
     "version":"1.0",
     "manifest_version":2,
-    "permission":["alarms", "notifications", "storage"],
+    "permissions":["alarms", "notifications", "storage"],
     "background": {
         "scripts": ["background.js"],
         "persistent": false

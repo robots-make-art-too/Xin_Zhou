@@ -1,5 +1,5 @@
 function setAlarm(event){
-    let l = parseFloat(event.target.value);
+    l = parseFloat(event.target.value);
     switch (l){
         case 0.1 :chrome.browserAction.setBadgeText({text: 'ON'});  break;
         case 0.3 :chrome.browserAction.setBadgeText({text: 'WORK'}); break;
