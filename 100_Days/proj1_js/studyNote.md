@@ -14,3 +14,4 @@ button: hover  : the change when mouse hang on the area
 
 Questions:
 1.The icon can not show on the website of extensions page.
+2.How popup.js and background.js can share a same var.
