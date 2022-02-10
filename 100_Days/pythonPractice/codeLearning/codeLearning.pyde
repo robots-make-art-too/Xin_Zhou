@@ -1,7 +1,7 @@
-int S
-int BH
-int NB_S,NB_BH
-int NUM_COLOR
+S = list []
+BH = list []
+NB_S,NB_BH
+NUM_COLOR
 
 def setup():
     size(600,600)
