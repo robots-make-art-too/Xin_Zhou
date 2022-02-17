@@ -1,0 +1,21 @@
+{
+    "name":"Tomato Timer",
+    "description":"Pomodoro Technique can help increase producitivity by dividing time into 25-minute work periods and 5-minute breaks",
+    "version":"1.0",
+    "manifest_version":2,
+    "permissions":["alarms", "notifications", "storage"],
+    "background": {
+        "scripts": ["background.js"],
+        "persistent": false
+    },
+    "browser_action": {
+        "default_title": "Tomato Timer",
+        "default_popup": "popup.html",
+        "default_icon": {
+            "16": "img/T16.png",
+            "32": "img/T32.png",
+            "48": "img/T48.png",
+            "128": "img/T128.png"
+        }
+    }
+}
