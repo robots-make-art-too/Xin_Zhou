@@ -47,12 +47,12 @@ class the2(oldBot):
         else: #---------------------------------no pattern
             print('none')
     def relationShip(self,relate,twoParents,parent): #----------------------draw line relation
-        if relate:
+        if relate=='True':
             stroke(200)
             strokeWeight(4)
             line (parent.x,parent.y+100,self.x,self.y)
-            if twoParents :
-                line (parent.x-120,parent.y+100,self.x,self.y)
+            if twoParents=='True' :
+                line (parent.x+120,parent.y+100,self.x,self.y)
     
 
 

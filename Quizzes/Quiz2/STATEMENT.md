@@ -25,9 +25,11 @@ Gen 3: clothes with colors and patterns, has flashing eyes
 Name is on the bottom of each robot
 
 ## Anythin else ?
-Two list file:
-The order is from top generation to bottom
-The unrelated bot is on the left of its spouse
-So if follow this rule can add more in
-headList is followed requiment, so my if and else statements are followed the headList. 
-But it should be more freedom, I will try to fix latter
+The order of List file:
+Columnsis:
+    from top generation to bottom
+    The unrelated(with other) bot is under its spouse
+Row:
+    Generations # Name # HeadType # TwoParents # childNum # Spause # hasChild    
+
+So if follow this can add more in
