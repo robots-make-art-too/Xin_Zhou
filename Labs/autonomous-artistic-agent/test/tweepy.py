@@ -10,7 +10,6 @@ tokens = [] #tweepy key list
 with open ('file.text','r') as f: #read file
     for line in f:  
         tokens.append(line.strip()) # add word on the end of list
-
 #set key
 consumer_key = tokens[0] 
 consumer_secret = tokens[1]

@@ -1,25 +1,34 @@
 import random
 from PIL import Image, ImageDraw, ImageFont
 
-methods=['boil','fry','deep fry']
-meat = ['pork','chicken','beef']
-veg=['garlic','broccli','apple']
-drink=['tea','soda','orange juice']
-backColor = []
+methods=['Boil','Fry','Deep Fry']
+meat = ['Pork','Chicken','Beef']
+veg=['Garlic','Broccli','Apple']
+drink=['Maple Tea','Soda','Orange Juice']
+fontColor = ['#826260','#953827','#A4AA51','#AA7534','#60754E','#744644']
 
 
 #build image
+
 def buildImage():
+    global img,font1,font2,draw
     # get background
     img = Image.open('1.jpg')
     draw = ImageDraw.Draw(img)
     # set font
-    font = ImageFont.truetype("arial.ttf", size=30)
+    font1 = ImageFont.truetype("arial.ttf", size=30)
+    font2 = ImageFont.truetype("arial.ttf", size=26)
     # write
-    draw.text((0,0),methods[random.choice(range(3))],fill='#000000',font=font)
-
+    drawSentence ()
     #save img
     img.save('today.jpg')
-    print('in')
 
+
+def drawSentence ():
+    draw.text((0,10),'What is you\nSupper?',fill='#D8B481',font=font1)
+    draw.text((0,100),random.choice(methods),fill=random.choice(fontColor),font=font1)
+    draw.text((80,140),random.choice(meat),fill=random.choice(fontColor),font=font1)
+    draw.text((80,205),random.choice(veg),fill=random.choice(fontColor),font=font1)
+    draw.text((0,180),'with\n\n\ndrink',fill='#D8B481',font=font2)
+    draw.text((80,300),random.choice(drink),fill=random.choice(fontColor),font=font1)
 buildImage()
