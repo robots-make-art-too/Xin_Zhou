@@ -25,10 +25,9 @@ def buildImage():
 
 
 def drawSentence ():
-    draw.text((0,10),'What is you\nSupper?',fill='#D8B481',font=font1)
-    draw.text((0,100),random.choice(methods),fill=random.choice(fontColor),font=font1)
-    draw.text((80,140),random.choice(meat),fill=random.choice(fontColor),font=font1)
-    draw.text((80,205),random.choice(veg),fill=random.choice(fontColor),font=font1)
-    draw.text((0,180),'with\n\n\ndrink',fill='#D8B481',font=font2)
-    draw.text((80,300),random.choice(drink),fill=random.choice(fontColor),font=font1)
-buildImage()
+    draw.text((10,20),'What is you\nSupper?',fill='#D8B481',font=font1)
+    draw.text((10,100),random.choice(methods),fill=random.choice(fontColor),font=font1)
+    draw.text((90,140),random.choice(meat),fill=random.choice(fontColor),font=font1)
+    draw.text((90,205),random.choice(veg),fill=random.choice(fontColor),font=font1)
+    draw.text((10,180),'with\n\n\ndrink',fill='#D8B481',font=font2)
+    draw.text((90,300),random.choice(drink),fill=random.choice(fontColor),font=font1)
