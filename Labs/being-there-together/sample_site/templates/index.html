@@ -1,27 +1,53 @@
 <link rel="preconnect" href="https://fonts.gstatic.com">
 <link href="https://fonts.googleapis.com/css2?family=Rubik&display=swap" rel="stylesheet">
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>Which line are you in?</title>
+</head>
+<!--Main Part-->
+<body>
+     <!--Title-->
+     <h1 style="margin-bottom:0; color:#2c472a">iinline</h1>
+    <div id="header" style="background-color:#6e9e6b; height:80px;" >
+        <h3 style="margin-top:0; color: #f2f3f4;">Are you in the line? </h3>
+        <h3 style="margin-bottom:0; color: #ffffff;">What are you going to order?</h3>
+    </div>
+     <!--Left-->
+    <div id="menu" style="background-color:#6e9e6bb0;height:400px;width:100px;float:left;">
+        <b>Store</b><br>
+        <br><a target="_top" title="Starbucks"  href="/html/html-intro.html" >Starbucks</a></br>
+        <br><a target="_top" title="PizzaPizza"  href="/html/html-intro.html" >Pizza Pizza</a></br>
+        <br><a target="_top" title="PitaPit"  href="/html/html-intro.html" >Pita Pit</a></br>
+        <br><a target="_top" title="SushiShop"  href="/html/html-intro.html" >Sushi Shop</a></br>
+    </div>
 
-<style>
-    * {
-        font-family: "Rubik", "sans-serif";
-    }
 
-    div {
-        text-align: center;
-        margin-top: 50px;
-    }
+    <!--Post Content-->
+    <div id="content" style="background-color:#ebe2b493;height:400px;">
+    内容在这里</div>
 
-    h1 {
-        color: red;
-        font-size: 40pt;
-    }
 
-    p {
-        font-size: 24pt;
-    }
-</style>
+    <!--Post Area-->
+    <div id="header" style="background-color:#6e9e6b;clear:both;text-align:center;">
+        
+        <h3 style="margin-bottom:0; color: #f2f3f4;">Share Your Order</h3>
+    </div>
+    <div id="content" style="background-color:#ebe2b493;height:200px;text-align:center;">
+        <body>
+            <div class="bbs">
+                <header ><span  onclick="showpost()">Which line are you in?</span></header>
+                <div class="post">
+                    Store：<select class="block"><option>Choose Store</option><option>Starbucks</option><option>PizzaPizza</option><option>Pita Pit</option><option>Sushi Shop</option><option>Other</option></select>
+                    <br><textarea style="height:100px;width:300px" class="content" placeholder="Enter here（1-50 worlds）"></textarea></br>
+                    <input style="background-color: #a2d39e6f; text-align:center;"class="btn" onclick="post()" value=" - - POST - - ">
+                </div>
+            </div>
+            </body>
+    </div>
 
-<div>
-    <h1>Welcome!</h1><br>
-    <p>This site has been visited {{ count }} times.</p>
-</div>
+    <div id="footer" style="background-color:#6e9e6b;clear:both;text-align:center;">
+        <h3 style="margin-bottom:0;">@iinline</h3>
+    </div>
+    </body>
+
+<script src="./script.js"></script>
