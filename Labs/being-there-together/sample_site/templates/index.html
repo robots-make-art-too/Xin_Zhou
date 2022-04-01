@@ -23,8 +23,12 @@
 
 
     <!--Post Content-->
-    <div id="content" style="background-color:#ebe2b493;height:400px;">
-    内容在这里</div>
+    <div id="blogs" style="background-color:#ebe2b493;height:400px;">
+  
+        <section>
+             <ul id ="postul"></ul>
+        </section>
+    </div>
 
 
     <!--Post Area-->
@@ -32,14 +36,15 @@
         
         <h3 style="margin-bottom:0; color: #f2f3f4;">Share Your Order</h3>
     </div>
-    <div id="content" style="background-color:#ebe2b493;height:200px;text-align:center;">
+    <div id="postarea" style="background-color:#ebe2b493;height:200px;text-align:center;">
         <body>
             <div class="bbs">
-                <header ><span  onclick="showpost()">Which line are you in?</span></header>
+                <header >Which line are you in?</header>>
                 <div class="post">
-                    Store：<select class="block"><option>Choose Store</option><option>Starbucks</option><option>PizzaPizza</option><option>Pita Pit</option><option>Sushi Shop</option><option>Other</option></select>
-                    <br><textarea style="height:100px;width:300px" class="content" placeholder="Enter here（1-50 worlds）"></textarea></br>
-                    <input style="background-color: #a2d39e6f; text-align:center;"class="btn" onclick="post()" value=" - - POST - - ">
+                    <input class = title placeholdre="Please enter your title here" id = "title">
+                    Store：<select id ="sec" class="block"><option selected>Choose Store</option><option>Starbucks</option><option>PizzaPizza</option><option>Pita Pit</option><option>Sushi Shop</option><option>Other</option></select>
+                    <br><textarea id = "content" style="height:100px;width:300px" class="content" placeholder="Enter here（1-50 worlds）"></textarea></br>
+                    <input style="background-color: #a2d39e6f; text-align:center;"class="btn" value=" - - POST - - " onclick="post()">
                 </div>
             </div>
             </body>
